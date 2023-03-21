@@ -1,0 +1,7 @@
+.insertarCitacion{
+    display: flex;
+    width: 100%;   
+}
+.insertarCitacionContainer{
+    flex: 3;
+}

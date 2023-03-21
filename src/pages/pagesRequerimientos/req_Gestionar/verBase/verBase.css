@@ -1,0 +1,7 @@
+.verBase{
+    display: flex;
+    width: 100%;   
+}
+.verBaseContainer{
+    flex: 3;
+}

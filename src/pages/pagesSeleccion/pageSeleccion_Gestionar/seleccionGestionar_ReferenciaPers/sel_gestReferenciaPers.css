@@ -1,0 +1,11 @@
+.Sel_GestReferenciaPers{
+    display: flex;
+    width: 100%;
+}
+.sel_GestReferenciaPersContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 10px;
+}

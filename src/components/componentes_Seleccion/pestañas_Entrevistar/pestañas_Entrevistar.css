@@ -1,0 +1,241 @@
+.pestañas{
+    padding: 0px 45px;
+}
+
+.baseTab{
+    width: 100%;
+    border-left: 1px solid #ffff !important;
+    cursor: pointer;
+}
+.baseTab:hover{
+    background-color: #074e8c !important;
+    color: rgb(255, 255, 255) !important;
+}
+.activeTab{
+    background-color: #074e8c !important ;
+    color: #ffff !important;
+}
+.navegador{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloPestaña{
+    font-size: 12px;
+}
+
+/* informacion Personal */
+
+.formInfoEntrevistar{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(9, 1fr);
+    height: 300px;
+    margin: 10px 20px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 104px;
+    background-color: #eeeeee;
+}  
+.oneInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.elevenInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.doceInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+.treceInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.catorceInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+.quinceInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.dieciseisInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+.diecisieteInfoEntrevistar{
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+}
+.dieciochoInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
+}
+.diecinueveInfoEntrevistar{
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+}
+.veinteInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 10 / 11;
+}
+.veintiunoInfoEntrevistar{
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+}
+.veintidosInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 11 / 12;
+}
+.veintitresInfoEntrevistar{
+    grid-column: 1 / 2;
+    grid-row: 12 / 13;
+}
+.veinticuatroInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 12 / 13;
+}
+.veinticincoInfoEntrevistar{
+    grid-column: 1 / 2;
+    grid-row: 13 / 14;
+}
+.veintiseisInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 13 / 14;
+}
+.veintisieteInfoEntrevistar{
+    grid-column: 1 / 2;
+    grid-row: 14 / 15;
+}
+.veintiochoInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 14 / 15;
+}
+.veintinueveInfoEntrevistar{
+    grid-column: 1 / 2;
+    grid-row: 15 / 16;
+}
+.treintaInfoEntrevistar{
+    grid-column: 2 / 3;
+    grid-row: 15 / 16;
+}
+.inInfoEntrevistar{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 5px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.btnCancelarInfoPersona{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarInfoPersona{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarInfoPersona:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarInfoPersona:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.imagenPuntosInfoEntrevistar{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* fin informacion Personal */
+
+
+/* Contacto de emergencia */
+
+.formInfoTabla{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat( 1fr);
+    height: 300px;
+    margin: 10px 0px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 80px;
+    background-color: #eeeeee;
+}  
+.oneInfoPersonal{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    margin-right: 90px;
+}
+/* Contacto de emergencia */

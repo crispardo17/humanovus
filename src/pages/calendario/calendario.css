@@ -1,0 +1,11 @@
+.Calendario{
+    display: flex;
+    width: 100%;   
+}
+.calendarioContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

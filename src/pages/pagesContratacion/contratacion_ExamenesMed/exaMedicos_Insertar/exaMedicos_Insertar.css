@@ -1,0 +1,7 @@
+.insertarExa{
+    display: flex;
+    width: 100%;   
+}
+.insertarExaContainer{
+    flex: 3;
+}

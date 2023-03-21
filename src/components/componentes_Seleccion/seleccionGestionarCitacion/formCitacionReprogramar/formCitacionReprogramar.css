@@ -1,0 +1,155 @@
+.formReprogramarCitacion{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(12, 1fr);
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneReprogramarCitacion{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoReprogramarCitacion{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeReprogramarCitacion{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourReprogramarCitacion{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveReprogramarCitacion{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixReprogramarCitacion{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenReprogramarCitacion{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightReprogramarCitacion{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineReprogramarCitacion{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenReprogramarCitacion{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    padding: 0px 60px 0px 0px;
+}
+.onceReprogramarCitacion{
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
+}
+.doceReprogramarCitacion{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    padding-left: 80px;
+}
+.treceReprogramarCitacion{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+h1{
+    padding: 20px 0px 10px 0px;
+    color:#073f6f;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.inReprogramarCitacion{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+.imagenPuntosReprogramarCitacion{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#entReprogramar{
+    width: 90%;
+    height: 200PX;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+#obsReprogramar{
+    width: 90%;
+    height: 200PX;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.btnCancelarReprogramarCitacion{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarReprogramarCitacion{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarReprogramarCitacion:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarReprogramarCitacion:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

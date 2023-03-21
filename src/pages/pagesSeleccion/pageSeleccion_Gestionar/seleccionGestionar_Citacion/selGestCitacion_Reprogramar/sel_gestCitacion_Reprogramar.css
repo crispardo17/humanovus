@@ -1,0 +1,7 @@
+.reprogramarCitacion{
+    display: flex;
+    width: 100%;   
+}
+.reprogramarCitacionContainer{
+    flex: 3;
+}

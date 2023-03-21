@@ -1,0 +1,264 @@
+.formContratar{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(20, 1fr);
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneContratar{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding:10px 0px 20px 0px; 
+}
+.twoContratar{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding:0px 0px 20px 0px; 
+}
+.threeContratar{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourContratar{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveContratar{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixContratar{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenContratar{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightContratar{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineContratar{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenContratar{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.onceContratar{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.doceContratar{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;   
+}
+.treceContratar{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    padding:10px 60px 10px 0px; 
+}
+.catorceContratar{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+    padding:20px 0px 10px 0px;
+}
+.quinceContratar{
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.dieciseisContratar{
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+.diecisieteContratar{
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+}
+.dieciochoContratar{
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
+}
+.diecinueveContratar{
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+}
+.veinteContratar{
+    grid-column: 2 / 3;
+    grid-row: 10 / 11;
+}
+.veintiunoContratar{
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+}
+.veintidosContratar{
+    grid-column: 2 / 3;
+    grid-row: 11 / 12;
+}
+.veintitresContratar{
+    grid-column: 1 / 2;
+    grid-row: 12 / 13;
+}
+.veinticuatroContratar{
+    grid-column: 2 / 3;
+    grid-row: 12 / 13;
+}
+.veinticincoContratar{
+    grid-column: 1 / 2;
+    grid-row: 13 / 14;
+}
+.veintiseisContratar{
+    grid-column: 2 / 3;
+    grid-row: 13 / 14;
+}
+.veintisieteContratar{
+    grid-column: 1 / 2;
+    grid-row: 14 / 15;
+}
+.veintiochoContratar{
+    grid-column: 2 / 3;
+    grid-row: 14 / 15;
+}
+.veintinueveContratar{
+    grid-column: 1 / 2;
+    grid-row: 15 / 16;
+}
+.treintaContratar{
+    grid-column: 2 / 3;
+    grid-row: 15 / 16;
+}
+.treintayunoContratar{
+    grid-column: 1 / 2;
+    grid-row: 16 / 17;
+}
+.treintaydosContratar{
+    grid-column: 2 / 3;
+    grid-row: 16 / 17;
+}
+.treintaytresContratar{
+    grid-column: 1 / 2;
+    grid-row: 17 / 18;
+    padding:0px 0px 10px 0px; 
+}
+.treintaycuatroContratar{
+    grid-column: 2 / 3;
+    grid-row: 17 / 18;
+    padding:15px 0px 10px 0px; 
+}
+.treintaycincoContratar{
+    grid-column: 1 / 3;
+    grid-row: 19 / 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.treintayseisContratar{
+    grid-column: 1 / 2;
+    grid-row: 20 / 21;
+    padding-left: 20%;
+    margin: 30px 0px 20px 0px;
+}
+.treintaysieteContratar{
+    grid-column: 2 / 3;
+    grid-row: 20 / 21;
+    padding-left: 1%;
+    margin: 0px 0px 20px 0px;
+}
+h1{
+    color:#073f6f;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.eps, .fdp{
+    display: flex;
+    align-items: center
+}
+.inContratar{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+#verButton{
+    width: 45px;
+    height: 30px;
+    font-size: large;
+    border-radius: 15%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+#verButton:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.imagenPuntosContratar{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btnCancelar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

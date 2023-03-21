@@ -1,0 +1,7 @@
+.contratar{
+    display: flex;
+    width: 100%;   
+}
+.ContratarContainer{
+    flex: 3;
+}

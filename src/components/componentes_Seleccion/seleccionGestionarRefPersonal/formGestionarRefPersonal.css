@@ -1,0 +1,164 @@
+.divRefPersonal{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(7, 1fr);
+    height: 600px;
+    margin: 20px 10px;
+    padding: 10px 30px 10px 30px;
+}  
+.oneRefPersonal{
+    padding:20px 0px 0px 60px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoRefPersonal{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeRefPersonal{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+.fourRefPersonal{
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+    padding-top: 100px;
+}
+.imagenPuntosRefPersonal{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tablaRef_Personal{
+    min-height: 300px;
+    width: 100%;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+#referenciaPers{
+    width: 90%;
+    height: 200PX;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.formRefPersonal{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(13, 1fr);
+    height: 820px;
+    margin: 0px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}
+.oneRefPer{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoRefPer{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeRefPer{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourRefPer{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveRefPer{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixRefPer{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenRefPer{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightRefPer{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineRefPer{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+}
+.tenRefPer{
+    padding: 20px 0px 0px 80px;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.elevenRefPer{
+    padding: 20px 0px 0px 40px;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+.ifRefPersonal{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.btnCancelarRefPersonal{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarRefPersonal{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarRefPersonal:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarRefPersonal:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

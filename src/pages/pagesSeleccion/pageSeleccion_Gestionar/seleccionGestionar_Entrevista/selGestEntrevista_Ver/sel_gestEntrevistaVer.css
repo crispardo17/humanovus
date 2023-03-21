@@ -1,0 +1,11 @@
+.Sel_GestEntrevistaVer{
+    display: flex;
+    width: 100%;
+}
+.sel_GestEntrevistaVerContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

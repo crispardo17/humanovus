@@ -1,0 +1,11 @@
+.Planta{
+    display: flex;
+    width: 100%;   
+}
+.plantaContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

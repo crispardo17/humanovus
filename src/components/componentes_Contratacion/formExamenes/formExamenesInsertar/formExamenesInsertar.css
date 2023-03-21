@@ -1,0 +1,216 @@
+.formInsertExa{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(12, 1fr);
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneExa{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding:10px 0px 20px 0px; 
+}
+.twoExa{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding:0px 0px 20px 0px; 
+}
+.threeExa{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourExa{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveExa{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixExa{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenExa{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightExa{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineExa{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenExa{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.onceExa{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    padding:10px 0px 20px 0px; 
+}
+.doceExa{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    padding:0px 0px 20px 0px;
+}
+.treceExa{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.catorceExa{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+.quinceExa{
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.dieciseisExa{
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+.diecisieteExa{
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+    padding:10px 0px 20px 0px; 
+}
+.dieciochoExa{
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
+    padding:0px 0px 20px 0px; 
+}
+.diecinueveExa{
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+}
+.veinteExa{
+    grid-column: 2 / 3;
+    grid-row: 10 / 11;
+}
+.veintiunoExa{
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+    padding-left: 20%;
+    margin: 50px 0px 20px 0px;
+}
+.veintidosExa{
+    grid-column: 2 / 3;
+    grid-row: 11 / 12;
+    padding-left: 1%;
+    margin: 20px 0px 20px 0px;
+}
+h1{
+    color:#073f6f;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.inExa{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+#examenButton{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px;
+    margin-left: 10px; 
+}
+#examenDelete{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px;
+    margin-left:10px ; 
+}
+.imagenPuntosExa{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#observacion{
+    width: 87%;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.btnCancelar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

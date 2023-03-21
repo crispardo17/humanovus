@@ -1,0 +1,16 @@
+.Sel_GestCitacion{
+    display: flex;
+    width: 100%;
+}
+.sel_GestCitacionContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}
+.botonSel_GestCitacion{
+    width: 90%;
+    flex-direction: row;
+    padding: 10px 0px 0px 30px;
+}

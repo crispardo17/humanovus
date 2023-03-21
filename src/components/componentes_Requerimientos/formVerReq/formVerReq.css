@@ -1,0 +1,187 @@
+.formVer{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(12, 1fr);
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneVer{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoVer{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeVer{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourVer{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveVer{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixVer{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenVer{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightVer{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineVer{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenVer{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.onceVer{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.doceVer{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+.treceVer{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.catorceVer{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+.quinceVer{
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.dieciseisVer{
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+.diecisieteVer{
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+}
+.dieciochoVer{
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
+}
+.diecinueveVer{
+    grid-column: 1 / 3;
+    grid-row: 10 / 11;
+}
+
+h1{
+    color:#073f6f;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.inVer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+#vacantes {
+    font-size: 19px;
+}
+.ch{
+    display: flex;
+    flex-direction: column;
+}
+.capacitacion{
+    padding-bottom: 20px;
+    height: auto;
+    padding-top: px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.yes{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-start;
+}
+.not{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    align-items: flex-start;
+}
+#observacionVer{
+    width: 87%;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.btnCancelar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

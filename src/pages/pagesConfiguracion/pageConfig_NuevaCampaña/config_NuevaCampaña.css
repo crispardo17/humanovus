@@ -1,0 +1,7 @@
+.nuevaCampaña{
+    display: flex;
+    width: 100%;   
+}
+.nuevaCampañaContainer{
+    flex: 3;
+}

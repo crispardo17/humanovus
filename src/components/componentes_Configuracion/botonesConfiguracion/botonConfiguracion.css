@@ -1,0 +1,47 @@
+.divConfig{
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.buttonConfig{
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+.configButton{
+    padding-left: 10px;
+}
+.buttonConfig{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 13px;
+    border-color: #316497;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    background-color: #316497;
+    cursor: pointer;
+}
+.buttonConfig:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}
+.buscarConfig{
+    background-color: transparent;
+    margin-left:10px;
+    height: 30px;
+    width: 210px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.configBuscar{
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    background-color: #d1d1d1;
+    padding-right:30px ;
+}

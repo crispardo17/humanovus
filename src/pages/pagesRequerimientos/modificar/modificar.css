@@ -1,0 +1,7 @@
+.modificar{
+    display: flex;
+    width: 100%;   
+}
+.modificarContainer{
+    flex: 3;
+}

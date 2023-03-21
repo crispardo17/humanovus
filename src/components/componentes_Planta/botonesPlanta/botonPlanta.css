@@ -1,0 +1,47 @@
+.divPlanta{
+    padding: 10px 0px 0px 50px;
+    display: flex;
+    align-items: center;
+}
+.buttonPlanta{
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+.plantaButton{
+    padding-left: 10px;
+}
+.buttonPlanta{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    border-color: #316497;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    background-color: #316497;
+    cursor: pointer;
+}
+.buttonPlanta:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}
+.buscarPlanta{
+    background-color: transparent;
+    margin-left:10px;
+    height: 30px;
+    width: 340px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.plantaBuscar{
+    margin-left:400px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    background-color: #d1d1d1;
+    padding-right: 20px;
+}

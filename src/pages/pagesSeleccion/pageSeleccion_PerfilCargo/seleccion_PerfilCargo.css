@@ -1,0 +1,11 @@
+.selPerfilCargo{
+    display: flex;
+    width: 100%;
+}
+.perfilCargoContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

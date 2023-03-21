@@ -1,0 +1,150 @@
+.formInsertBase{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(8, 1fr);
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneBase{
+    padding-bottom: 10px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoBase{
+    padding:20px 0px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeBase{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourBase{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveBase{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixBase{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenBase{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightBase{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineBase{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenBase{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.onceBase{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.doceBase{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+.treceBase{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.catorceBase{
+    padding: 30px 0px 0px 0px;
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+.quinceBase{
+    padding: 30px 0px 0px 70px;
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.dieciseisBase{
+    padding: 0px 0px 0px 35px;
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+h1{
+    color:#073f6f;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.inBase{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+.imagenPuntosInsertarBase{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btnCancelar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

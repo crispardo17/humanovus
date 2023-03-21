@@ -1,0 +1,11 @@
+.Documentos{
+    display: flex;
+    width: 100%;   
+}
+.documentosContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

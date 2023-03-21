@@ -1,0 +1,11 @@
+.Ver_Activo{
+    display: flex;
+    width: 100%;   
+}
+.ver_ActivoContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

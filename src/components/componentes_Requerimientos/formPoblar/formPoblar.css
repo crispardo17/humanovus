@@ -1,0 +1,133 @@
+.formPoblar{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(6, 1fr);
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 25px 10px 100px;
+    background-color: #eeeeee;
+}  
+.onePoblar{
+    padding: 20px 0px 20px 0px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoPoblar{
+    padding: 20px 0px 20px 0px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threePoblar{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourPoblar{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fivePoblar{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixPoblar{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenPoblar{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightPoblar{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.ninePoblar{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenPoblar{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.elevenPoblar{
+    padding: 40px 0px 0px 65px;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.twelvePoblar{
+    padding: 40px 0px 0px 65px;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+h1{
+    color:#073f6f;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.inPoblar{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+.imagenPuntosPoblar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btnCancelarPoblar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarPoblar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarPoblar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarPoblar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

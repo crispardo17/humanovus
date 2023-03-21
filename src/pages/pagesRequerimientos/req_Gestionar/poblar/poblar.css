@@ -1,0 +1,7 @@
+.poblar{
+    display: flex;
+    width: 100%;   
+}
+.poblarContainer{
+    flex: 3;
+}

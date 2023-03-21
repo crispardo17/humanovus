@@ -1,0 +1,7 @@
+.insertarBase{
+    display: flex;
+    width: 100%;   
+}
+.insertarBaseContainer{
+    flex: 3;
+}

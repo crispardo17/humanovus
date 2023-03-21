@@ -1,0 +1,153 @@
+.modal{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #001b4cc4;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal.is-open{
+    display: flex;
+}
+.modal-fondoSeguridadSocial{
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #001b4cc4;
+    width: 80%;
+    height: 550px;
+    overflow-y: auto;
+}
+.div-imagenSeguridadSocial{
+    margin: 10px;
+}
+.modal-fondo1SeguridadSocial{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-fondo2SeguridadSocial{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-modalSeguridadSocial{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(3, 1fr);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 1rem;
+    position: relative;
+    background-color: white;
+    width: 97%;
+    height: 440px;
+    overflow-y: auto;
+}
+.grid-modal1SeguridadSocial{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.grid-modal2SeguridadSocial{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-modal3SeguridadSocial{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    padding: 50px 30px 20px 250px;
+}
+.grid-modal4SeguridadSocial{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    padding: 50px 250px 20px 30px;
+}
+.imagenOjoSeguridadSocial{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/ojoNovus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    color:white;
+}
+.nombreModalSeguridadSocial{
+    color: aliceblue;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    font-size: 40px;
+}
+.selectModalSeguridadSocial{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 400px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+.divSelects{
+    display: flex;
+    align-items: center;
+}
+#segSocialButton{
+    width: 60px;
+    height: 30px;
+    font-size: large;
+    border-radius: 15%;
+    border-color: #316497;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px;
+    margin-left: 10px; 
+}
+.btnCancelarModalSeguridadSocial{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarModalSeguridadSocial{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarModalSeguridadSocial:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarModalSeguridadSocial:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

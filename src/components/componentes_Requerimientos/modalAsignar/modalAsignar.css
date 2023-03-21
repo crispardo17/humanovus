@@ -1,0 +1,237 @@
+.modal{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #001b4cc4;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal.is-open{
+    display: flex;
+}
+.modal-fondoAsignar{
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #001b4cc4;
+    width: 80%;
+    height: 550px;
+    overflow-y: auto;
+    align-items: center;
+}
+.div-imagenAsignar{
+    margin: 10px;
+}
+.modal-fondo1Asignar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nombreModalAsignar{
+    color: aliceblue;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    font-size: 40px;
+}
+.imagenOjoAsignar{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/ojoNovus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    color:white;
+}
+.modal-fondo2Asignar{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 97%;
+    height: 440px;
+    position: relative;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.checkbox-Asignar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-AsignarPsicologo{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(2, 1fr);
+    margin-top: 1rem;
+    overflow-y: auto;
+} 
+.div-Psicologo1{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30PX;
+}
+.div-Psicologo2{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 70px 30px 20px 305px;
+}
+.div-Psicologo3{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 70px 250px 20px 30px;
+}
+.grid-AsignarGrupo{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(2, 1fr);
+    margin-top: 1rem;
+    overflow-y: auto;
+} 
+.div-Grupo1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+}
+.div-Grupo2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-Grupo3{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 80px 30px 20px 305px;
+}
+.div-Grupo4{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 80px 250px 20px 30px;
+}
+
+.selectModalAsignar{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 50%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+.observacionModalAsignar{
+    width: 60%;
+    height: 100px;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.observacionGrupo{
+    width: 60%;
+    height: 187px;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.psicologo{
+    width: 80px;
+    height: 40px;
+}
+.tabla{
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+}
+.asignarSelect{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+#asignarButton{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px; 
+}
+#asignarDelete{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px; 
+}
+.selectModalAsignar{
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+td{
+    font-size: 20px;
+}
+
+.btnCancelarModalAsignar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarModalAsignar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarModalAsignar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarModalAsignar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

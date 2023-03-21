@@ -1,0 +1,7 @@
+.contratacionVer{
+    display: flex;
+    width: 100%;   
+}
+.ContratacionVerContainer{
+    flex: 3;
+}

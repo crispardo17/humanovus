@@ -1,0 +1,16 @@
+.Sel_GestEntrevista{
+    display: flex;
+    width: 100%;
+}
+.sel_GestEntrevistaContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}
+.botonSel_GestEntrevista{
+    width: 90%;
+    flex-direction: row;
+    padding: 10px 0px 0px 30px;
+}

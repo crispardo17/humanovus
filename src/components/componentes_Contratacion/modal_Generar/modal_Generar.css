@@ -1,0 +1,145 @@
+.modal{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #001b4cc4;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal.is-open{
+    display: flex;
+}
+.modal-fondoGenerar{
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #001b4cc4;
+    width: 80%;
+    height: 550px;
+    overflow-y: auto;
+}
+.div-imagenGenerar{
+    margin: 10px;
+}
+.modal-fondo1Generar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-fondo2Generar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-modalGenerar{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(2, 1fr);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 1rem;
+    position: relative;
+    background-color: white;
+    width: 97%;
+    height: 440px;
+    overflow-y: auto;
+    justify-items: center;
+}
+.grid-modal1Generar{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 250px;
+}
+.grid-modal2Generar{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    padding-top: 130px;
+}
+.imagenOjoGenerar{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/ojoNovus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    color:white;
+}
+.nombreModalGenerar{
+    color: aliceblue;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    font-size: 40px;
+}
+.btnCerrarModalGenerar{
+    color: #ffffff;
+    font-size: 20px;
+    width: 180px;
+    align-content: center;
+    height: 40px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnCerrarModalGenerar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%);
+}
+.verGenerar{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    background: linear-gradient(120deg, #308548 50%,#65e87d 100%);
+    border-radius: 15px;
+    border: none; 
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.verGenerar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65e886 50%,#4a8530 100%);
+}
+.generar{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    background: linear-gradient(120deg, #164562 50%,#206689 100%);
+    border-radius: 15px;
+    border: none; 
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.generar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #3139ce 50%,#082159 100%);
+}
+.imprimir{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    background: linear-gradient(120deg, #853030 50%,#e8656b 100%);
+    border-radius: 15px;
+    border: none; 
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.imprimir:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #e86574 50%,#651515 100%);
+}

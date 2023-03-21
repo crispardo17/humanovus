@@ -1,0 +1,11 @@
+.Sel_GestEntrevistaEditar{
+    display: flex;
+    width: 100%;
+}
+.sel_GestEntrevistaEditarContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

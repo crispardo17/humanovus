@@ -1,0 +1,7 @@
+.verContactar{
+    display: flex;
+    width: 100%;   
+}
+.verContactarContainer{
+    flex: 3;
+}

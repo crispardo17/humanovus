@@ -1,0 +1,48 @@
+.divGestSel{
+    padding: 10px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+.buttonGestSel{
+    padding: 0px 5px;
+    border-radius: 50px;
+}
+.gestSelButton{
+    padding-left: 10px;
+}
+.buttonGestSel{
+    height: 35px;
+    width: 132px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 22px;
+    border-color: #316497;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: #316497;
+    cursor: pointer;
+}
+.buttonGestSel:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}
+.buscarGestSel{
+    background-color: transparent;
+    margin-left:10px;
+    height: 30px;
+    width: 190px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.gestSelBuscar{
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    background-color: #d1d1d1;
+    padding-right: 15px;
+}

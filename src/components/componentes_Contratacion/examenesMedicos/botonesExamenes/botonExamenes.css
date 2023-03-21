@@ -1,0 +1,48 @@
+.divExamenes{
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.buttonExa{
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+.examenesButton{
+    padding-left: 15px;
+}
+.examenesButton button{
+    height: 35px;
+    width: 104px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 22px;
+    border-color: #316497;
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+    background-color: #316497;
+    cursor: pointer;
+}
+.examenesButton button:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}
+.buscarExamenes{
+    background-color: transparent;
+    margin-left:10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.examenesBuscar{
+    margin-left:500px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    background-color: #d1d1d1;
+    padding-right: 20px;
+}

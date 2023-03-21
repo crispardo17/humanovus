@@ -1,0 +1,48 @@
+.divSel_GestCitacion{
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.buttonSel_GestCitacion{
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+.sel_GestCitacionButton{
+    padding-left: 10px;
+}
+
+.sel_GestCitacionButton button{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    border-color: #316497;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    background-color: #316497;
+    cursor: pointer;
+}
+.sel_GestCitacionButton button:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}
+.buscarSel_GestCitacion{
+    background-color: transparent;
+    margin-left:10px;
+    height: 30px;
+    width: 310px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.sel_GestCitacionBuscar{
+    margin-left:100px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    background-color: #d1d1d1;
+    padding-right: 20px;
+}

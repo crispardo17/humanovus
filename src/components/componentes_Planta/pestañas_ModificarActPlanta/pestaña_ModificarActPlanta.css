@@ -1,0 +1,628 @@
+.pestañas{
+    padding: 0px 45px;
+}
+
+.baseTab{
+    width: 100%;
+    border-left: 1px solid #ffff !important;
+    cursor: pointer;
+}
+.baseTab:hover{
+    background-color: #074e8c !important;
+    color: rgb(255, 255, 255) !important;
+}
+.activeTab{
+    background-color: #074e8c !important ;
+    color: #ffff !important;
+}
+.navegador{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* informacion Personal */
+
+.formInfoPersonal{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(9, 1fr);
+    height: 530px;
+    margin: 10px 50px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.elevenInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.doceInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+.treceInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.catorceInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+.quinceInfoPersonal{
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+    padding: 40px 0px 0px 80px;
+}
+.dieciseisInfoPersonal{
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+    padding: 40px 0px 0px 20px;
+}
+.inInfoPersonal{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.btnCancelarInfoPersona{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarInfoPersona{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarInfoPersona:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarInfoPersona:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.imagenPuntosInfoPersonal{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* fin informacion Personal */
+
+
+
+/* informacion Academica */
+
+
+.formInfoAcademica{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(5, 1fr);
+    height: 510px;
+    margin: 10px 50px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneInfoAcademica{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoInfoAcademica{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeInfoAcademica{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourInfoAcademica{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveInfoAcademica{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixInfoAcademica{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenInfoAcademica{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightInfoAcademica{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    padding-top: 25px;
+    margin-left: 15px;
+}
+.nineInfoAcademica{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+    padding-top: 25px;
+    padding-right: 100px;
+}
+.tenInfoAcademica{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    padding: 40px 0px 0px 80px;
+}
+.elevenInfoAcademica{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    padding: 40px 0px 0px 30px;
+}
+.inInfoAcademica{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.divAnexar{
+    display: flex;
+    align-items: center;
+}
+#anexarArchivo{
+    width: 80%;
+    height: 40px;
+    font-size: large;
+    background-color: #eeeeee;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px; 
+}
+#añadirAcademica{
+    color: #ffffff;
+    font-size: 20px;
+    width: 300px;
+    align-content: center;
+    height: 50px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+#añadirAcademica:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+#academicaEditDelete{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    margin-left: 5px;
+    padding: 0px 1px 0px 0px;
+}
+.btnCancelarAcademica{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarAcademica{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarAcademica:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarAcademica:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.imagenPuntosAcademica{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* fin informacion Academica */
+
+
+
+/* informacion Medica */
+
+.formInfoMedica{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(6, 1fr);
+    height: 510px;
+    margin: 10px 50px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneInfoMedica{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoInfoMedica{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeInfoMedica{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourInfoMedica{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveInfoMedica{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixInfoMedica{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenInfoMedica{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    padding-top: 25px;
+}
+.eightInfoMedica{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+    padding-top: 25px;
+    padding-right: 100px;
+}
+.nineInfoMedica{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    padding: 40px 0px 0px 80px;
+}
+.tenInfoMedica{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    padding: 40px 0px 0px 30px;
+}
+.inInfoMedica{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.divMedicamentos{
+    display: flex;
+    align-items: center;
+}
+.selectMedicamento{
+    width: 40%;
+    height: 40px;
+    font-size: 16px;
+    margin: 10px 10px 10px 27px;
+}
+#textMedicamento{
+    width: 45%;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+    margin: 0px 5px 0px 0px;
+}
+#agregarMedicamento{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px; 
+}
+#medicamentoEditDelete{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    margin-left: 5px;
+    padding: 0px 1px 0px 0px;
+}
+.btnCancelarInfoMedica{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarInfoMedica{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarInfoMedica:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarInfoMedica:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.imagenPuntosInfoMedica{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* fin informacion Medica */
+
+
+
+/* contrato de trabajo */
+
+
+.formConTrabajo{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(7, 1fr);
+    height: 510px;
+    margin: 10px 50px;
+    border-radius: 50px;
+    padding: 10px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneConTrabajo{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoConTrabajo{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeConTrabajo{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourConTrabajo{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-top: 48px;
+}
+.fiveConTrabajo{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixConTrabajo{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    padding-top: 48px;
+}
+.sevenConTrabajo{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    padding-top: 20px;
+}
+.eightConTrabajo{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineConTrabajo{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+    padding-top: 25px;
+}
+.tenConTrabajo{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    padding: 40px 0px 0px 80px;
+}
+.elevenConTrabajo{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    padding: 40px 0px 0px 30px;
+}
+.inConTrabajo{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.examinar{
+    background-color: #eeeeee;
+}
+.btnCancelarConTrabajo{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarConTrabajo{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarConTrabajo:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarConTrabajo:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.imagenPuntosConTrabajo{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* fin contratos de trabajo */

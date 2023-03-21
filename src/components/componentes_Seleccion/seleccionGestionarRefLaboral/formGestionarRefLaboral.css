@@ -1,0 +1,172 @@
+.divRefLaboral{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(7, 1fr);
+    height: 600px;
+    margin: 20px 10px;
+    padding: 10px 30px 10px 30px;
+}  
+.oneRefLaboral{
+    padding:20px 0px 0px 60px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoRefLaboral{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeRefLaboral{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+.fourRefLaboral{
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+    padding-top: 100px;
+}
+.imagenPuntosRefLaboral{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tablaRef_Laboral{
+    min-height: 300px;
+    width: 100%;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+#referenciaLab{
+    width: 90%;
+    height: 200PX;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.formRefLaboral{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(7, 1fr);
+    height: 920px;
+    margin: 0px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}
+.oneRefLab{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoRefLab{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeRefLab{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourRefLab{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveRefLab{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixRefLab{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenRefLab{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightRefLab{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineRefLab{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenRefLab{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.elevenRefLab{
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
+}
+.twelveRefLab{
+    padding: 20px 0px 0px 60px;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.treceRefLab{
+    padding: 20px 0px 0px 40px;
+    grid-column: 2 / 3; 
+    grid-row: 7 / 8;
+}
+.ifRefLaboral{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.btnCancelarRefLaboral{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarRefLaboral{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarRefLaboral:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarRefLaboral:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

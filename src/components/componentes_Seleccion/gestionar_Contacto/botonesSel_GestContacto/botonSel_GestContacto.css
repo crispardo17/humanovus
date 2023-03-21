@@ -1,0 +1,47 @@
+.divSel_GestContacto{
+    padding: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.buttonSel_GestContacto{
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+.sel_GestContactoButton{
+    padding-left: 10px;
+}
+.sel_GestContactoButton button{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    border-color: #316497;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    background-color: #316497;
+    cursor: pointer;
+}
+.sel_GestContactoButton button:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}
+.buscarSel_GestContacto{
+    background-color: transparent;
+    margin-left:10px;
+    height: 30px;
+    width: 310px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.sel_GestContactoBuscar{
+    margin-left:300px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    background-color: #d1d1d1;
+    padding-right: 20px;
+}

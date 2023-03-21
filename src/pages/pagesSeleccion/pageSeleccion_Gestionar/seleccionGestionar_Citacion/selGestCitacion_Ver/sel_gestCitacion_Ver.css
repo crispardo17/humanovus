@@ -1,0 +1,7 @@
+.verCitacion{
+    display: flex;
+    width: 100%;   
+}
+.verCitacionContainer{
+    flex: 3;
+}

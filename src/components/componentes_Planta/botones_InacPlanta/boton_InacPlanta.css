@@ -1,0 +1,47 @@
+.divInacPlanta{
+    padding: 10px 0px 0px 50px;
+    display: flex;
+    align-items: center;
+}
+.buttonInacPlanta{
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+.inacPlantaButton{
+    padding-left: 10px;
+}
+.buttonInacPlanta{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    border-color: #316497;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    background-color: #316497;
+    cursor: pointer;
+}
+.buttonInacPlanta:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}
+.buscarInacPlanta{
+    background-color: transparent;
+    margin-left:10px;
+    height: 30px;
+    width: 340px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.inacPlantaBuscar{
+    margin-left:600px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    background-color: #d1d1d1;
+    padding-right: 20px;
+}

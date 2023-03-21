@@ -1,0 +1,27 @@
+.navbarHojaDeVida{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    color: #ffffff;
+    background-image: url(../../assets/bg/navbar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.wrapperHojaDeVida{
+    padding: 10px 100px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    align-items: center;   
+}
+.itemsHojaDeVida{
+    height: 50px;
+    width: 180px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #316497;   
+}

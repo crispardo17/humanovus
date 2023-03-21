@@ -1,0 +1,7 @@
+.insertar{
+    display: flex;
+    width: 100%;   
+}
+.insertarContainer{
+    flex: 3;
+}

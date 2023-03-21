@@ -1,0 +1,244 @@
+.formContactar{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows:repeat(13, 1fr);
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 10px 100px;
+    background-color: #eeeeee;
+}  
+.oneContactar{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.twoContactar{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.threeContactar{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.fourContactar{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.fiveContactar{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.sixContactar{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.sevenContactar{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.eightContactar{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.nineContactar{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.tenContactar{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.onceContactar{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.doceContactar{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+.treceContactar{
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.catorceContactar{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+.quinceContactar{
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.dieciseisContactar{
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+}
+.diecisieteContactar{
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 9 / 10;
+}
+h1{
+    padding: 20px 0px 10px 0px;
+    color:#073f6f;
+}
+label{
+    font-weight: 900;
+    font-size: 22px;
+    color: #073f6f;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+.inContactar{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+select{
+    background-color: #d1d1d1;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.imagenPuntosContactar{
+    margin-top: 35px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#observacionContactar{
+    width: 87%;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+#retirarContactar{
+    width: 87%;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}
+.btnCancelarContactar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none; 
+}
+.btnGuardarContactar{
+    color: #ffffff;
+    font-size: 28px;
+    width: 220px;
+    align-content: center;
+    height: 60px;
+    background: linear-gradient(120deg, #306485 50%,#65bce8 100%);
+    border-radius: 15px;
+    border: none;  
+}
+.btnGuardarContactar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.btnCancelarContactar:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+.unoSi{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.dosSi{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.tresSi{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.cuatroSi{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.cincoSi{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.seisSi{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.sieteSi{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+}
+.ochoSi{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    padding: 20px 0px 0px 30%;
+}
+.nueveSi{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    padding: 20px 0px 0px 5%;
+}
+.unoNo{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 100px;
+}
+.dosNo{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    height: 100px;
+}
+.tresNo{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.cuatroNo{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.cincoNo{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    padding: 20px 0px 0px 30%;
+}
+.seisNo{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    padding: 20px 0px 0px 5%;
+}
+.retirar{
+    width: 81%;
+    height: 110PX;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+}

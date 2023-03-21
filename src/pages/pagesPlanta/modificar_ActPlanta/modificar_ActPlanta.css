@@ -1,0 +1,11 @@
+.Modificar_ActPlanta{
+    display: flex;
+    width: 100%;
+}
+.modificar_ActPlantaContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

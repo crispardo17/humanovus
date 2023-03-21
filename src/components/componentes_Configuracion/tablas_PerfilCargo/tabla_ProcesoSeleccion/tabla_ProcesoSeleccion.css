@@ -1,0 +1,46 @@
+.divProcesoSeleccion{
+    display: flex;
+    align-items: center
+}
+#procesoSeleccion{
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    resize: none;
+    background-color: #d1d1d1;
+    margin: 0px 5px 0px 150px;
+}
+#agregarButton{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 4px 0px; 
+}
+#agregarEditDelete{
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50%;
+    border-color: #316497;
+    background-color: #316497;
+    color: #ffffff;
+    border: none; 
+    margin-left: 5px;
+    padding: 0px 1px 0px 0px;
+}
+#agregarButton:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}
+#agregarEditDelete:hover{
+    color: #ffffff;
+    background: linear-gradient(120deg, #65bce8 50%,#306485 100%); 
+}

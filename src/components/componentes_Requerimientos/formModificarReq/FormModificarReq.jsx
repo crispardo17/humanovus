@@ -1,0 +1,257 @@
+import {useState} from 'react'
+import "./formModificarReq.css"
+
+const FormModificarReq = () => {
+
+    const [showHoras, setShowHoras] = useState ('');
+    const handleShowHoras = (event) => {
+    const getHoras = event.target.value; 
+    setShowHoras(getHoras);
+    }
+    const [showCampaña, setShowCampaña] = useState ('');
+    const handleShowCampaña = (event) => {
+    const getCampaña = event.target.value; 
+    setShowCampaña(getCampaña);  
+    }
+    const [siChecked, setSiChecked] = useState(false);
+    const [noChecked, setNoChecked] = useState(false);
+    const [showCapacitacion, setShowCapacitacion] = useState(false);
+
+    const handleShowCapacitacion1 = () => {
+    setSiChecked(true);
+    setNoChecked(false);
+    setShowCapacitacion(true);
+    }
+
+    const handleShowCapacitacion2 = () => {
+    setSiChecked(false);
+    setNoChecked(true);
+    setShowCapacitacion(false);
+    }
+  
+  return (
+    <form className="formModificar" >
+        <div className="oneModificar">
+          <div className="inModificar" >
+            <label>EMPRESA</label>
+              <select name="empresa" id="empresa" required>
+                <option value="">Selecciona:</option>
+                <option value="novus">GRUPO NOVUS</option>
+                <option value="gopass">GOPASS</option>
+              </select>
+          </div>
+        </div>
+        <div className="twoModificar">
+            <div className="inModificar" >
+              <label>PROCESO</label>
+              <select name="proceso" id="proceso" onChange={(e)=>(handleShowCampaña(e)) }  required>
+                <option value="">Selecciona:</option>
+                <option value="1">Comercial</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+        </div>
+        <div className="threeModificar">
+            <div className="inModificar">
+              <label>SUBPROCESO</label>
+              <select name="subproceso" id="subproceso" required>
+                <option value="">Selecciona:</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+        </div>
+        {
+          showCampaña ==='1' &&(
+        <div className="fourModificar">
+          <div className="inModificar" >
+            <label>CAMPAÑA</label>
+              <select name="ciudad" id="ciudad" required>
+                <option value="">Selecciona:</option>
+                <option value="1">AV VILLAS</option>
+                <option value="2">POPULAR</option>
+                <option value="3">PORVENIR</option>
+              </select>
+            </div>
+        </div>
+            )
+        }
+        <div className="fiveModificar">
+          <div className="inModificar" >
+            <label>CIUDAD</label>
+            <select name="ciudad" id="ciudad" required>
+                <option value="">Selecciona:</option>
+                <option value="bogota">BOGOTA</option>
+                <option value="barramquilla">BARRANQUILLA</option>
+                <option value="medellin">MEDELLIN</option>
+                <option value="cali">CALI</option>
+                <option value="yopal">YOPAL</option>
+              </select>
+            </div>
+        </div>
+        <div className="sixModificar">
+        <div className="inModificar">
+              <label>NUM.VACANTES</label>
+              <input type="number" id="numVacantes" name="numVacantes" min="1" max="100" placeholder="###" required />
+            </div>
+        </div>
+        <div className="sevenModificar">
+          <div className="ch" >
+            <label>REQUIERE CAPACITACIÓN</label>
+              <div className="capacitacion" >
+                <div className="yes" >
+                  <input type="checkbox" id="siCapacitacion" name="siCapacitacion" checked={siChecked} value="1" onChange={(e)=>(handleShowCapacitacion1(e)) }/> 
+                  <label>SI</label>
+                </div>
+                <div className="not"> 
+                  <input type="checkbox" id="noCapacitacion" name="noCapacitacion" checked={noChecked}  value="0" onChange={(e)=>(handleShowCapacitacion2(e)) } /> 
+                  <label>NO</label>
+                </div>
+              </div> 
+            </div>
+        </div>
+        {
+          showCapacitacion &&(
+        <div className="eightModificar">
+            <div className="inModificar">
+              <label>FECHA DE CAPACITACIÓN</label>
+              <input type="date" id="fCapacitacion" name="fCapacitacion" min="1" max="100" required/>
+            </div>
+        </div>
+           )
+        }
+        <div className="nineModificar">
+        <div className="inModificar">
+              <label>FECHA DE CONTRATACION</label>
+              <input type="date" id="fContratacion" name="fContratacion" required />
+            </div>
+        </div>
+        <div className="tenModificar">
+            <div className="inModificar">
+              <label>TIPO DE ASIGNACIÓN</label>
+              <select name="tipoAsignacion" id="tipoAsignacion" required>
+                <option value="">Selecciona:</option>
+                <option value="1">Reemplazo</option>
+                <option value="2">Nuevo Cargo</option>
+              </select>
+            </div>
+        </div>
+        <div className="onceModificar">
+          <div className="inModificar">
+              <label>VALOR</label>
+              <input type="number" id="valor" name="valor" placeholder="$$$$$$$" required/>
+            </div>
+        </div>
+        <div className="doceModificar">
+            <div className="inModificar">
+              <label>MOTIVO DE SOLICITUD</label>
+              <select name="motSolicitud" id="motSolicitud" required> 
+                <option value="">Selecciona:</option>
+                <option value="1">Reemplazo</option>
+                <option value="2">Nuevo Cargo</option>
+              </select>
+            </div>
+        </div>
+        <div className="treceModificar">
+        <div className="inModificar" >
+            <label>HORARIO DE TRABAJO</label>
+            <select name="horTrabajo" id="horTrabajo" required>
+                <option value="">Selecciona:</option>
+                <option value="">Oficina</option>    
+                <option value="">Rotativos</option>         
+              </select>
+            </div>
+        </div>
+        <div className="catorceModificar">
+            <div className="inModificar">
+              <label>MODALIDAD DE CONTRATO</label>
+              <select name="modContrato" id="modContrato" required>
+                <option value="">Selecciona:</option>
+                <option value="1">Presencial</option>
+                <option value="2">Remoto</option>
+                <option value="3">Hibrido</option>
+                <option value="4">Medio Tiempo</option>
+              </select>
+            </div>
+        </div>
+        <div className="quinceModificar">
+        <div className="inModificar" >
+            <label>EXPERIENCIA</label>
+            <select name="experiencia" id="experiencia" required>
+                <option value="">Selecciona:</option>
+                <option value="">Sin Experiencia</option>
+                <option value="">Menos de un año</option>
+                <option value="">1 año</option>
+                <option value="">2 años</option>
+                <option value="">3 años</option>
+                <option value="">Más de 4 años</option>              
+              </select>
+            </div>
+        </div>
+        <div className="dieciseisModificar">
+            <div className="inModificar">
+              <label>TIPO DE CONTRATO</label>
+              <select name="tipoContrato" id="tipoContrato" onChange={(e)=>(handleShowHoras(e)) } required>
+                <option value="">Selecciona:</option>
+                <option value="1">Obra Labor</option>
+                <option value="2">Fijo</option>
+                <option value="3">Indefinido</option>
+                <option value="4">Aprendizaje</option>
+                <option value="5">Prestacion de Servicios</option>
+                <option value="6">Horas</option>
+                <option value="7">Otro</option>
+              </select>
+            </div>
+        </div>
+        <div className="diecisieteModificar">
+        <div className="inModificar" >
+            <label>FORMACION ACADEMICA</label>
+            <select name="formAcademica" id="formAcademica" required>
+                <option value="">Selecciona:</option>
+                <option value="">Bachiller</option>
+                <option value="">Técnico</option>
+                <option value="">Tecnologo</option>
+                <option value="">Profesional</option>
+                <option value="">otro</option>     
+              </select>
+            </div>
+        </div>
+        {
+          showHoras ==='6' &&(
+        <div className="dieciochoModificar">
+            <div className="inModificar">
+              <label>NÚMERO DE HORAS</label>
+              <input type="number" id="numHoras" name="numHoras" min="1" max="48" placeholder="##"/>
+            </div>
+        </div>
+            )
+        }
+        <div className="diecinueveModificar">
+            <div className="inModificar" >
+              <label>OBSERVACIONES</label>
+              <textarea name="observacionModificar" id="observacionModificar" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div className="veinteModificar">
+            <div className="inModificar">
+              <div>
+                <button className="btnGuardar">Guardar</button>
+              </div>
+            </div>
+        </div>
+        <div className="veintiunoModificar">
+            <div className="inModificar" >
+              <div>
+                <button className="btnCancelar">Cancelar</button>
+              </div>
+            </div>
+        </div>
+      </form>
+  )
+}
+
+export default FormModificarReq

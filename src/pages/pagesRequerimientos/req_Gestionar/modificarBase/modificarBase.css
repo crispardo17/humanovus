@@ -1,0 +1,7 @@
+.modificarBase{
+    display: flex;
+    width: 100%;   
+}
+.modificarBaseContainer{
+    flex: 3;
+}

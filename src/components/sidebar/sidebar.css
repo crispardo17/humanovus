@@ -1,0 +1,75 @@
+.sidebar{
+    flex: 0.7;
+    min-height: 100vh;
+    background-color: #ffffff;
+    border-right: 0.1px solid #2a5b8b;
+}
+.top{
+     height: 98.5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url(../../assets/bg/fondonav.png);
+     background-repeat: repeat;
+     background-position: center;
+     background-size: 100%;
+}
+.humaLogo{
+     height: 50px;
+     width: 180px;
+}
+.logo{
+     font-size: 20px;
+     font-weight: bold;
+     color: white;
+}
+.center{
+     width: 100%;
+     padding-top: 2px;
+     min-height: 87.5vh;
+     display: flex;
+     align-items: flex-start;
+     background-image: url(../../assets/bg/degradenuevo.png);
+     background-repeat: repeat;
+     background-position: center;
+     background-size: 100%;
+     background-position-x: center;
+}
+.ulSidebar{
+     list-style: none;
+     margin-top: 20px;
+     padding: 0px;     
+}
+li{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px 0px;
+     
+}
+.center button{
+     width: 99%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     padding: 6px 0px;
+     border-radius: 12px;
+     border-color: #316497;
+     color: white;
+     font-size: 19px;
+     font-weight: normal;
+     background-color: #316497;
+     cursor: pointer;
+}
+.centrer button:hover{
+     background-color: #ffffff;
+     color: #316497;   
+}
+.ojoNovus{
+    padding-top: 50px;
+    height: 200px;
+    width: 100%;
+}
+.linkSidebar{
+     width: 80%;
+}

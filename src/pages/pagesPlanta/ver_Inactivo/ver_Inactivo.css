@@ -1,0 +1,11 @@
+.Ver_Inactivo{
+    display: flex;
+    width: 100%;   
+}
+.ver_InactivoContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}

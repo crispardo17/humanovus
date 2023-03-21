@@ -1,0 +1,16 @@
+.GestionarSel{
+    display: flex;
+    width: 100%;
+}
+.gestionarSelContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}
+.botonGestionarSel{
+    width: 90%;
+    flex-direction: row;
+    padding: 10px 0px 0px 30px;
+}

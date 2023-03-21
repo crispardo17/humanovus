@@ -1,0 +1,7 @@
+.resultadoExa{
+    display: flex;
+    width: 100%;   
+}
+.resultadoExaContainer{
+    flex: 3;
+}

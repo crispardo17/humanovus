@@ -1,0 +1,46 @@
+.Perfil_Cargo{
+    display: flex;
+    width: 100%;   
+}
+.perfil_CargoContainer{
+    flex: 3;
+}
+.breadcrumb{
+    display: flex;
+    padding: 15px;
+}
+.formPerfilCargo{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin: 20px 50px;
+    border-radius: 50px;
+    padding: 30px 20px 60px 30px;
+    background-color: #eeeeee;
+}
+h2{
+    padding: 20px 0px 10px 20px;
+    color:#073f6f;
+    font-size: 2.9rem;
+}
+h5{
+    padding: 10px 0px 10px 40px;
+    color:#073f6f;
+}
+.imagenPuntosPerfilCargo{
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../../assets/shape/shapePuntos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+}
+.tituloPerfilCargo{
+    display: flex;
+    margin-bottom: 10px;
+}
